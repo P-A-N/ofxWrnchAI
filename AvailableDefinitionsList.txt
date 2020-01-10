@@ -1,0 +1,1130 @@
+Joint definition for b3
+Defined joints:
+        0       BAT_HANDLE
+        1       BAT_MIDDLE
+        2       BAT_TIP
+
+Defined bones:
+        0       BAT_HANDLE - BAT_MIDDLE
+        1       BAT_MIDDLE - BAT_TIP
+
+Joint definition for j12
+Defined joints:
+        0       RANKLE
+        1       RKNEE
+        2       RHIP
+        3       LHIP
+        4       LKNEE
+        5       LANKLE
+        6       RWRIST
+        7       RELBOW
+        8       RSHOULDER
+        9       LSHOULDER
+        10      LELBOW
+        11      LWRIST
+
+Defined bones:
+        0       RANKLE - RKNEE
+        1       RKNEE - RHIP
+        2       LHIP - LKNEE
+        3       LKNEE - LANKLE
+        4       LHIP - RHIP
+        5       LSHOULDER - RSHOULDER
+        6       RWRIST - RELBOW
+        7       RELBOW - RSHOULDER
+        8       LSHOULDER - LELBOW
+        9       LELBOW - LWRIST
+        10      LSHOULDER - LHIP
+        11      RSHOULDER - RHIP
+
+Joint definition for j18
+Defined joints:
+        0       NOSE
+        1       NECK
+        2       RSHOULDER
+        3       RELBOW
+        4       RWRIST
+        5       LSHOULDER
+        6       LELBOW
+        7       LWRIST
+        8       RHIP
+        9       RKNEE
+        10      RANKLE
+        11      LHIP
+        12      LKNEE
+        13      LANKLE
+        14      REYE
+        15      LEYE
+        16      REAR
+        17      LEAR
+
+Defined bones:
+        0       NECK - RHIP
+        1       RHIP - RKNEE
+        2       RKNEE - RANKLE
+        3       NECK - LHIP
+        4       LHIP - LKNEE
+        5       LKNEE - LANKLE
+        6       NECK - RSHOULDER
+        7       RSHOULDER - RELBOW
+        8       RELBOW - RWRIST
+        9       RSHOULDER - REAR
+        10      NECK - LSHOULDER
+        11      LSHOULDER - LELBOW
+        12      LELBOW - LWRIST
+        13      LSHOULDER - LEAR
+        14      NECK - NOSE
+        15      NOSE - REYE
+        16      NOSE - LEYE
+        17      REYE - REAR
+        18      LEYE - LEAR
+
+Joint definition for j21
+Defined joints:
+        0       RANKLE
+        1       RKNEE
+        2       RHIP
+        3       LHIP
+        4       LKNEE
+        5       LANKLE
+        6       PELV
+        7       THRX
+        8       NECK
+        9       HEAD
+        10      RWRIST
+        11      RELBOW
+        12      RSHOULDER
+        13      LSHOULDER
+        14      LELBOW
+        15      LWRIST
+        16      NOSE
+        17      REYE
+        18      REAR
+        19      LEYE
+        20      LEAR
+
+Defined bones:
+        0       RANKLE - RKNEE
+        1       RKNEE - RHIP
+        2       LHIP - LKNEE
+        3       LKNEE - LANKLE
+        4       RHIP - PELV
+        5       PELV - LHIP
+        6       PELV - THRX
+        7       THRX - NECK
+        8       NECK - HEAD
+        9       RWRIST - RELBOW
+        10      RELBOW - RSHOULDER
+        11      LSHOULDER - LELBOW
+        12      LELBOW - LWRIST
+        13      NECK - RSHOULDER
+        14      NECK - LSHOULDER
+        15      LSHOULDER - LEAR
+        16      RSHOULDER - REAR
+        17      LEYE - LEAR
+        18      REYE - REAR
+        19      NOSE - LEYE
+        20      NOSE - REYE
+
+reflecting:
+        flipIndices: [5, 4, 3, 2, 1, 0, 6, 7, 8, 9, 15, 14, 13, 12, 11, 10, 16, 19, 20, 17, 18]
+        transpositions: [{0, 5}, {1, 4}, {2, 3}, {10, 15}, {11, 14}, {12, 13}, {17, 19}, {18, 20}]
+
+Joint definition for j1
+Defined joints:
+        0       CENTER
+
+Defined bones:
+
+Joint definition for j8_torso
+Defined joints:
+        0       RSHOULDER
+        1       RELBOW
+        2       RWRIST
+        3       LSHOULDER
+        4       LELBOW
+        5       LWRIST
+        6       RHIP
+        7       LHIP
+
+Defined bones:
+        0       RSHOULDER - RELBOW
+        1       RELBOW - RWRIST
+        2       LSHOULDER - LELBOW
+        3       LELBOW - LWRIST
+        4       RSHOULDER - RHIP
+        5       LSHOULDER - LHIP
+        6       RSHOULDER - LSHOULDER
+        7       LSHOULDER - RSHOULDER
+
+Joint definition for j16
+Defined joints:
+        0       RANKLE
+        1       RKNEE
+        2       RHIP
+        3       LHIP
+        4       LKNEE
+        5       LANKLE
+        6       PELV
+        7       THRX
+        8       NECK
+        9       HEAD
+        10      RWRIST
+        11      RELBOW
+        12      RSHOULDER
+        13      LSHOULDER
+        14      LELBOW
+        15      LWRIST
+
+Defined bones:
+        0       RANKLE - RKNEE
+        1       RKNEE - RHIP
+        2       LHIP - LKNEE
+        3       LKNEE - LANKLE
+        4       RHIP - PELV
+        5       PELV - LHIP
+        6       PELV - THRX
+        7       THRX - NECK
+        8       NECK - HEAD
+        9       RWRIST - RELBOW
+        10      RELBOW - RSHOULDER
+        11      LSHOULDER - LELBOW
+        12      LELBOW - LWRIST
+        13      NECK - RSHOULDER
+        14      NECK - LSHOULDER
+
+Joint definition for j17
+Defined joints:
+        0       NOSE
+        1       LEYE
+        2       REYE
+        3       LEAR
+        4       REAR
+        5       LSHOULDER
+        6       RSHOULDER
+        7       LELBOW
+        8       RELBOW
+        9       LWRIST
+        10      RWRIST
+        11      LHIP
+        12      RHIP
+        13      LKNEE
+        14      RKNEE
+        15      LANKLE
+        16      RANKLE
+
+Defined bones:
+        0       NOSE - LEYE
+        1       NOSE - REYE
+        2       LEYE - LEAR
+        3       REYE - REAR
+        4       LSHOULDER - LEAR
+        5       RSHOULDER - REAR
+        6       LSHOULDER - RSHOULDER
+        7       RSHOULDER - LSHOULDER
+        8       LSHOULDER - LELBOW
+        9       RSHOULDER - RELBOW
+        10      LELBOW - LWRIST
+        11      RELBOW - RWRIST
+        12      LSHOULDER - LHIP
+        13      RSHOULDER - RHIP
+        14      LHIP - RHIP
+        15      RHIP - LHIP
+        16      LHIP - LKNEE
+        17      RHIP - RKNEE
+        18      LKNEE - LANKLE
+        19      RKNEE - RANKLE
+
+Joint definition for wrFace20
+Defined joints:
+        0       CHIN
+        1       LCHEEK
+        2       LLEYE
+        3       LLEYEBROW
+        4       LMCHEEK
+        5       LMEYEBROW
+        6       LMOUTH
+        7       LREYE
+        8       LREYEBROW
+        9       NOSEBRIDGE
+        10      NOSETIP
+        11      RCHEEK
+        12      RLEYE
+        13      RLEYEBROW
+        14      RMCHEEK
+        15      RMEYEBROW
+        16      RMOUTH
+        17      RREYE
+        18      RREYEBROW
+        19      TOPMOUTH
+
+Defined bones:
+        0       NOSEBRIDGE - NOSETIP
+        1       NOSETIP - TOPMOUTH
+        2       NOSETIP - LCHEEK
+        3       NOSETIP - RCHEEK
+        4       TOPMOUTH - LMOUTH
+        5       TOPMOUTH - RMOUTH
+        6       RMOUTH - CHIN
+        7       LMOUTH - CHIN
+        8       LMOUTH - LMCHEEK
+        9       RMOUTH - RMCHEEK
+        10      NOSEBRIDGE - LREYEBROW
+        11      NOSEBRIDGE - LREYE
+        12      NOSEBRIDGE - RLEYEBROW
+        13      NOSEBRIDGE - RLEYE
+        14      LREYEBROW - LMEYEBROW
+        15      RLEYEBROW - RMEYEBROW
+        16      LMEYEBROW - LLEYEBROW
+        17      RMEYEBROW - RREYEBROW
+        18      LREYE - LLEYE
+        19      RLEYE - RREYE
+
+Joint definition for j20
+Defined joints:
+        0       NOSE
+        1       NECK
+        2       RSHOULDER
+        3       RELBOW
+        4       RWRIST
+        5       LSHOULDER
+        6       LELBOW
+        7       LWRIST
+        8       RHIP
+        9       RKNEE
+        10      RANKLE
+        11      LHIP
+        12      LKNEE
+        13      LANKLE
+        14      REYE
+        15      LEYE
+        16      REAR
+        17      LEAR
+        18      LTOE
+        19      RTOE
+
+Defined bones:
+        0       NECK - RHIP
+        1       RHIP - RKNEE
+        2       RKNEE - RANKLE
+        3       NECK - LHIP
+        4       LHIP - LKNEE
+        5       LKNEE - LANKLE
+        6       NECK - RSHOULDER
+        7       RSHOULDER - RELBOW
+        8       RELBOW - RWRIST
+        9       RSHOULDER - REAR
+        10      NECK - LSHOULDER
+        11      LSHOULDER - LELBOW
+        12      LELBOW - LWRIST
+        13      LSHOULDER - LEAR
+        14      NECK - NOSE
+        15      NOSE - REYE
+        16      NOSE - LEYE
+        17      REYE - REAR
+        18      LEYE - LEAR
+        19      LANKLE - LTOE
+        20      RANKLE - RTOE
+
+reflecting:
+        flipIndices: [0, 1, 5, 6, 7, 2, 3, 4, 11, 12, 13, 8, 9, 10, 15, 14, 17, 16, 19, 18]
+        transpositions: [{2, 5}, {3, 6}, {4, 7}, {8, 11}, {9, 12}, {10, 13}, {14, 15}, {16, 17}, {18, 19}]
+
+Joint definition for j19
+Defined joints:
+        0       NOSE
+        1       LEYE
+        2       REYE
+        3       LEAR
+        4       REAR
+        5       LSHOULDER
+        6       RSHOULDER
+        7       LELBOW
+        8       RELBOW
+        9       LWRIST
+        10      RWRIST
+        11      LHIP
+        12      RHIP
+        13      LKNEE
+        14      RKNEE
+        15      LANKLE
+        16      RANKLE
+        17      LTOE
+        18      RTOE
+
+Defined bones:
+        0       LSHOULDER - RSHOULDER
+        1       LSHOULDER - LHIP
+        2       LHIP - RHIP
+        3       RHIP - RSHOULDER
+        4       LSHOULDER - LELBOW
+        5       LELBOW - LWRIST
+        6       RSHOULDER - RELBOW
+        7       RELBOW - RWRIST
+        8       LSHOULDER - LEAR
+        9       RSHOULDER - REAR
+        10      LHIP - LKNEE
+        11      LKNEE - LANKLE
+        12      LANKLE - LTOE
+        13      RHIP - RKNEE
+        14      RKNEE - RANKLE
+        15      RANKLE - RTOE
+        16      LEYE - LEAR
+        17      REYE - REAR
+        18      NOSE - LEYE
+        19      NOSE - REYE
+
+Joint definition for j22
+Defined joints:
+        0       RANKLE
+        1       RKNEE
+        2       RHIP
+        3       LHIP
+        4       LKNEE
+        5       LANKLE
+        6       PELV
+        7       THRX
+        8       NECK
+        9       HEAD
+        10      RFINGER
+        11      LFINGER
+        12      RTHUMB
+        13      LTHUMB
+        14      RTOE
+        15      LTOE
+        16      RWRIST
+        17      RELBOW
+        18      RSHOULDER
+        19      LSHOULDER
+        20      LELBOW
+        21      LWRIST
+
+Defined bones:
+        0       RANKLE - RKNEE
+        1       RKNEE - RHIP
+        2       LHIP - LKNEE
+        3       LKNEE - LANKLE
+        4       RHIP - PELV
+        5       PELV - LHIP
+        6       PELV - THRX
+        7       THRX - NECK
+        8       NECK - HEAD
+        9       RWRIST - RELBOW
+        10      RELBOW - RSHOULDER
+        11      LSHOULDER - LELBOW
+        12      LELBOW - LWRIST
+        13      NECK - RSHOULDER
+        14      NECK - LSHOULDER
+        15      RWRIST - RFINGER
+        16      RWRIST - RTHUMB
+        17      LWRIST - LFINGER
+        18      LWRIST - LTHUMB
+        19      RANKLE - RTOE
+        20      LANKLE - LTOE
+
+Joint definition for j22ec
+Defined joints:
+        0       NOSE
+        1       LEYE
+        2       REYE
+        3       LEAR
+        4       REAR
+        5       LSHOULDER
+        6       RSHOULDER
+        7       LELBOW
+        8       RELBOW
+        9       LWRIST
+        10      RWRIST
+        11      LHIP
+        12      RHIP
+        13      LKNEE
+        14      RKNEE
+        15      LANKLE
+        16      RANKLE
+        17      LTOE
+        18      RTOE
+        19      LHEEL
+        20      RHEEL
+        21      C7
+
+Defined bones:
+        0       NOSE - LEYE
+        1       NOSE - REYE
+        2       LEYE - LEAR
+        3       REYE - REAR
+        4       LSHOULDER - RSHOULDER
+        5       RSHOULDER - LSHOULDER
+        6       LSHOULDER - LELBOW
+        7       RSHOULDER - RELBOW
+        8       LELBOW - LWRIST
+        9       RELBOW - RWRIST
+        10      LSHOULDER - LHIP
+        11      RSHOULDER - RHIP
+        12      LHIP - RHIP
+        13      RHIP - LHIP
+        14      LHIP - LKNEE
+        15      RHIP - RKNEE
+        16      LKNEE - LANKLE
+        17      RKNEE - RANKLE
+        18      LANKLE - LHEEL
+        19      RANKLE - RHEEL
+        20      LSHOULDER - C7
+        21      RSHOULDER - C7
+        22      C7 - LEAR
+        23      C7 - REAR
+        24      LANKLE - LTOE
+        25      RANKLE - RTOE
+        26      LHEEL - LTOE
+        27      RHEEL - RTOE
+
+Joint definition for j22hl
+Defined joints:
+        0       NOSE
+        1       NECK
+        2       RSHOULDER
+        3       RELBOW
+        4       RWRIST
+        5       LSHOULDER
+        6       LELBOW
+        7       LWRIST
+        8       RHIP
+        9       RKNEE
+        10      RANKLE
+        11      LHIP
+        12      LKNEE
+        13      LANKLE
+        14      REYE
+        15      LEYE
+        16      REAR
+        17      LEAR
+        18      LTOE
+        19      RTOE
+        20      LHEEL
+        21      RHEEL
+
+Defined bones:
+        0       NECK - RHIP
+        1       RHIP - RKNEE
+        2       RKNEE - RANKLE
+        3       NECK - LHIP
+        4       LHIP - LKNEE
+        5       LKNEE - LANKLE
+        6       NECK - RSHOULDER
+        7       RSHOULDER - RELBOW
+        8       RELBOW - RWRIST
+        9       RSHOULDER - REAR
+        10      NECK - LSHOULDER
+        11      LSHOULDER - LELBOW
+        12      LELBOW - LWRIST
+        13      LSHOULDER - LEAR
+        14      NECK - NOSE
+        15      NOSE - REYE
+        16      NOSE - LEYE
+        17      REYE - REAR
+        18      LEYE - LEAR
+        19      LANKLE - LTOE
+        20      RANKLE - RTOE
+        21      LANKLE - LHEEL
+        22      RANKLE - RHEEL
+
+Joint definition for j23
+Defined joints:
+        0       RANKLE
+        1       RKNEE
+        2       RHIP
+        3       LHIP
+        4       LKNEE
+        5       LANKLE
+        6       PELV
+        7       THRX
+        8       NECK
+        9       HEAD
+        10      RWRIST
+        11      RELBOW
+        12      RSHOULDER
+        13      LSHOULDER
+        14      LELBOW
+        15      LWRIST
+        16      NOSE
+        17      REYE
+        18      REAR
+        19      LEYE
+        20      LEAR
+        21      RTOE
+        22      LTOE
+
+Defined bones:
+        0       RANKLE - RKNEE
+        1       RKNEE - RHIP
+        2       LANKLE - LKNEE
+        3       LKNEE - LHIP
+        4       RHIP - LHIP
+        5       RHIP - RSHOULDER
+        6       LHIP - LSHOULDER
+        7       RSHOULDER - LSHOULDER
+        8       LSHOULDER - LELBOW
+        9       LELBOW - LWRIST
+        10      RSHOULDER - RELBOW
+        11      RELBOW - RWRIST
+        12      LANKLE - LTOE
+        13      RANKLE - RTOE
+
+converter:
+        converter: [RHIP, LHIP], PELV
+        converter: [RSHOULDER, LSHOULDER], THRX
+        converter: [REYE, LEYE, REAR, LEAR], HEAD
+
+Joint definition for j25
+Defined joints:
+        0       RANKLE
+        1       RKNEE
+        2       RHIP
+        3       LHIP
+        4       LKNEE
+        5       LANKLE
+        6       PELV
+        7       THRX
+        8       NECK
+        9       HEAD
+        10      RWRIST
+        11      RELBOW
+        12      RSHOULDER
+        13      LSHOULDER
+        14      LELBOW
+        15      LWRIST
+        16      NOSE
+        17      REYE
+        18      REAR
+        19      LEYE
+        20      LEAR
+        21      RTOE
+        22      LTOE
+        23      RHEEL
+        24      LHEEL
+
+Defined bones:
+        0       RANKLE - RKNEE
+        1       RKNEE - RHIP
+        2       LANKLE - LKNEE
+        3       LKNEE - LHIP
+        4       RHIP - LHIP
+        5       RHIP - RSHOULDER
+        6       LHIP - LSHOULDER
+        7       RSHOULDER - LSHOULDER
+        8       LSHOULDER - LELBOW
+        9       LELBOW - LWRIST
+        10      RSHOULDER - RELBOW
+        11      RELBOW - RWRIST
+        12      LANKLE - LTOE
+        13      RANKLE - RTOE
+        14      LANKLE - LHEEL
+        15      RANKLE - RHEEL
+
+converter:
+        converter: [RHIP, LHIP], PELV
+        converter: [RSHOULDER, LSHOULDER], THRX
+        converter: [REYE, LEYE, REAR, LEAR], HEAD
+
+Joint definition for j12_no_legs
+Defined joints:
+        0       NOSE
+        1       NECK
+        2       RSHOULDER
+        3       RELBOW
+        4       RWRIST
+        5       LSHOULDER
+        6       LELBOW
+        7       LWRIST
+        8       RHIP
+        9       LHIP
+        10      REYE
+        11      LEYE
+
+Defined bones:
+        0       NECK - RHIP
+        1       NECK - LHIP
+        2       NECK - RSHOULDER
+        3       RSHOULDER - RELBOW
+        4       NECK - LSHOULDER
+        5       LSHOULDER - LELBOW
+        6       LELBOW - LWRIST
+        7       NECK - NOSE
+        8       NOSE - REYE
+        9       NOSE - LEYE
+
+Joint definition for upperBody14
+Defined joints:
+        0       RHIP
+        1       LHIP
+        2       PELV
+        3       NECK
+        4       HEAD
+        5       RWRIST
+        6       RELBOW
+        7       RSHOULDER
+        8       LSHOULDER
+        9       LELBOW
+        10      LWRIST
+        11      NOSE
+        12      REYE
+        13      LEYE
+
+Defined bones:
+        0       RHIP - LHIP
+        1       RHIP - RSHOULDER
+        2       LHIP - LSHOULDER
+        3       RSHOULDER - LSHOULDER
+        4       LSHOULDER - LELBOW
+        5       RSHOULDER - RELBOW
+        6       LELBOW - LWRIST
+        7       RELBOW - RWRIST
+
+converter:
+        converter: [RHIP, LHIP], PELV
+        converter: [REYE, LEYE, REAR, LEAR], HEAD
+
+Joint definition for j14_no_legs
+Defined joints:
+        0       NECK
+        1       RWRIST
+        2       RELBOW
+        3       RSHOULDER
+        4       LSHOULDER
+        5       LELBOW
+        6       LWRIST
+        7       NOSE
+        8       REYE
+        9       REAR
+        10      LEYE
+        11      LEAR
+        12      RHIP
+        13      LHIP
+
+Defined bones:
+        0       NECK - RHIP
+        1       NECK - LHIP
+        2       NECK - RSHOULDER
+        3       RSHOULDER - RELBOW
+        4       RELBOW - RWRIST
+        5       RSHOULDER - REAR
+        6       NECK - LSHOULDER
+        7       LSHOULDER - LELBOW
+        8       LELBOW - LWRIST
+        9       LSHOULDER - LEAR
+        10      NECK - NOSE
+        11      NOSE - REYE
+        12      NOSE - LEYE
+        13      REYE - REAR
+        14      LEYE - LEAR
+
+Joint definition for hand21MHP
+Defined joints:
+        0       IPIP
+        1       IMCP
+        2       IDIP
+        3       ITIP
+        4       MPIP
+        5       MMCP
+        6       MDIP
+        7       MTIP
+        8       PPIP
+        9       PMCP
+        10      PDIP
+        11      PTIP
+        12      RPIP
+        13      RMCP
+        14      RDIP
+        15      RTIP
+        16      TPIP
+        17      TMCP
+        18      TDIP
+        19      TTIP
+        20      PALM
+
+Defined bones:
+        0       TMCP - TPIP
+        1       TPIP - TDIP
+        2       TDIP - TTIP
+        3       IMCP - IPIP
+        4       IPIP - IDIP
+        5       IDIP - ITIP
+        6       MMCP - MPIP
+        7       MPIP - MDIP
+        8       MDIP - MTIP
+        9       RMCP - RPIP
+        10      RPIP - RDIP
+        11      RDIP - RTIP
+        12      PMCP - PTIP
+        13      PTIP - PDIP
+        14      PDIP - PTIP
+
+Joint definition for extended
+Defined joints:
+        0       PELV
+        1       LHIP
+        2       LKNEE
+        3       LANKLE
+        4       RHIP
+        5       RKNEE
+        6       RANKLE
+        7       SPINE0
+        8       LSHOULDER
+        9       LELBOW
+        10      LWRIST
+        11      RSHOULDER
+        12      RELBOW
+        13      RWRIST
+        14      HEAD
+        15      LTOE
+        16      RTOE
+        17      LCOLLAR
+        18      RCOLLAR
+        19      NECK
+        20      SPINE1
+        21      SPINE2
+        22      LHIP_ROLL
+        23      LKNEE_ROLL
+        24      RHIP_ROLL
+        25      RKNEE_ROLL
+        26      LSHOULDER_ROLL
+        27      LELBOW_ROLL
+        28      RSHOULDER_ROLL
+        29      RELBOW_ROLL
+
+Defined bones:
+        0       LHIP_ROLL - LHIP
+        1       LKNEE - LHIP
+        2       LTOE - LANKLE
+        3       LANKLE - LKNEE
+        4       LKNEE_ROLL - LKNEE
+        5       LHIP - PELV
+        6       RHIP_ROLL - RHIP
+        7       RKNEE - RHIP
+        8       RTOE - RANKLE
+        9       RANKLE - RKNEE
+        10      RKNEE_ROLL - RKNEE
+        11      RHIP - PELV
+        12      HEAD - NECK
+        13      NECK - SPINE2
+        14      LSHOULDER_ROLL - LSHOULDER
+        15      LELBOW_ROLL - LWRIST
+        16      LWRIST - LELBOW
+        17      LELBOW - LSHOULDER
+        18      LSHOULDER - LCOLLAR
+        19      LCOLLAR - SPINE2
+        20      RSHOULDER_ROLL - RSHOULDER
+        21      RELBOW_ROLL - RWRIST
+        22      RWRIST - RELBOW
+        23      RELBOW - RSHOULDER
+        24      RSHOULDER - RCOLLAR
+        25      RCOLLAR - SPINE2
+        26      SPINE2 - SPINE1
+        27      SPINE1 - SPINE0
+        28      SPINE0 - PELV
+
+converter:
+        converter: [LSHOULDER, LELBOW], LSHOULDER_ROLL
+        converter: [RSHOULDER, RELBOW], RSHOULDER_ROLL
+        converter: [LELBOW, LWRIST], LELBOW_ROLL
+        converter: [RELBOW, RWRIST], RELBOW_ROLL
+        converter: [LHIP, LKNEE], LHIP_ROLL
+        converter: [RHIP, RKNEE], RHIP_ROLL
+        converter: [LKNEE, LANKLE], LKNEE_ROLL
+        converter: [RKNEE, RANKLE], RKNEE_ROLL
+        converter: [PELV, NECK], SPINE0
+        converter: [PELV, NECK], SPINE1
+        converter: [PELV, NECK], SPINE2
+        converter: [NECK, LSHOULDER], LCOLLAR
+        converter: [NECK, RSHOULDER], RCOLLAR
+
+Joint definition for hand21
+Defined joints:
+        0       Wrist
+        1       TMCP
+        2       IMCP
+        3       MMCP
+        4       RMCP
+        5       PMCP
+        6       TPIP
+        7       TDIP
+        8       TTIP
+        9       IPIP
+        10      IDIP
+        11      ITIP
+        12      MPIP
+        13      MDIP
+        14      MTIP
+        15      RPIP
+        16      RDIP
+        17      RTIP
+        18      PPIP
+        19      PDIP
+        20      PTIP
+
+Defined bones:
+        0       Wrist - TMCP
+        1       TMCP - TPIP
+        2       TPIP - TDIP
+        3       TDIP - TTIP
+        4       Wrist - IMCP
+        5       IMCP - IPIP
+        6       IPIP - IDIP
+        7       IDIP - ITIP
+        8       Wrist - MMCP
+        9       MMCP - MPIP
+        10      MPIP - MDIP
+        11      MDIP - MTIP
+        12      Wrist - RMCP
+        13      RMCP - RPIP
+        14      RPIP - RDIP
+        15      RDIP - RTIP
+        16      Wrist - PMCP
+        17      PMCP - PPIP
+        18      PPIP - PDIP
+        19      PDIP - PTIP
+
+Joint definition for cart4
+Defined joints:
+        0       BACK_LEFT
+        1       FRONT_LEFT
+        2       FRONT_RIGHT
+        3       BACK_RIGHT
+
+Defined bones:
+        0       BACK_LEFT - FRONT_LEFT
+        1       FRONT_LEFT - FRONT_RIGHT
+        2       FRONT_RIGHT - BACK_RIGHT
+        3       BACK_RIGHT - BACK_LEFT
+
+Joint definition for j20_h21_h21
+Defined joints:
+        0       NOSE
+        1       NECK
+        2       RSHOULDER
+        3       RELBOW
+        4       RWRIST
+        5       LSHOULDER
+        6       LELBOW
+        7       LWRIST
+        8       RHIP
+        9       RKNEE
+        10      RANKLE
+        11      LHIP
+        12      LKNEE
+        13      LANKLE
+        14      REYE
+        15      LEYE
+        16      REAR
+        17      LEAR
+        18      LTOE
+        19      RTOE
+        20      LWrist
+        21      LTMCP
+        22      LIMCP
+        23      LMMCP
+        24      LRMCP
+        25      LPMCP
+        26      LTPIP
+        27      LTDIP
+        28      LTTIP
+        29      LIPIP
+        30      LIDIP
+        31      LITIP
+        32      LMPIP
+        33      LMDIP
+        34      LMTIP
+        35      LRPIP
+        36      LRDIP
+        37      LRTIP
+        38      LPPIP
+        39      LPDIP
+        40      LPTIP
+        41      RWrist
+        42      RTMCP
+        43      RIMCP
+        44      RMMCP
+        45      RRMCP
+        46      RPMCP
+        47      RTPIP
+        48      RTDIP
+        49      RTTIP
+        50      RIPIP
+        51      RIDIP
+        52      RITIP
+        53      RMPIP
+        54      RMDIP
+        55      RMTIP
+        56      RRPIP
+        57      RRDIP
+        58      RRTIP
+        59      RPPIP
+        60      RPDIP
+        61      RPTIP
+
+Defined bones:
+        0       NECK - RHIP
+        1       RHIP - RKNEE
+        2       RKNEE - RANKLE
+        3       NECK - LHIP
+        4       LHIP - LKNEE
+        5       LKNEE - LANKLE
+        6       NECK - RSHOULDER
+        7       RSHOULDER - RELBOW
+        8       RELBOW - RWRIST
+        9       RSHOULDER - REAR
+        10      NECK - LSHOULDER
+        11      LSHOULDER - LELBOW
+        12      LELBOW - LWRIST
+        13      LSHOULDER - LEAR
+        14      NECK - NOSE
+        15      NOSE - REYE
+        16      NOSE - LEYE
+        17      REYE - REAR
+        18      LEYE - LEAR
+        19      LANKLE - LTOE
+        20      RANKLE - RTOE
+        21      LWrist - LTMCP
+        22      LTMCP - LTPIP
+        23      LTPIP - LTDIP
+        24      LTDIP - LTTIP
+        25      LWrist - LIMCP
+        26      LIMCP - LIPIP
+        27      LIPIP - LIDIP
+        28      LIDIP - LITIP
+        29      LWrist - LMMCP
+        30      LMMCP - LMPIP
+        31      LMPIP - LMDIP
+        32      LMDIP - LMTIP
+        33      LWrist - LRMCP
+        34      LRMCP - LRPIP
+        35      LRPIP - LRDIP
+        36      LRDIP - LRTIP
+        37      LWrist - LPMCP
+        38      LPMCP - LPPIP
+        39      LPPIP - LPDIP
+        40      LPDIP - LPTIP
+        41      RWrist - RTMCP
+        42      RTMCP - RTPIP
+        43      RTPIP - RTDIP
+        44      RTDIP - RTTIP
+        45      RWrist - RIMCP
+        46      RIMCP - RIPIP
+        47      RIPIP - RIDIP
+        48      RIDIP - RITIP
+        49      RWrist - RMMCP
+        50      RMMCP - RMPIP
+        51      RMPIP - RMDIP
+        52      RMDIP - RMTIP
+        53      RWrist - RRMCP
+        54      RRMCP - RRPIP
+        55      RRPIP - RRDIP
+        56      RRDIP - RRTIP
+        57      RWrist - RPMCP
+        58      RPMCP - RPPIP
+        59      RPPIP - RPDIP
+        60      RPDIP - RPTIP
+
+reflecting:
+        flipIndices: [0, 1, 5, 6, 7, 2, 3, 4, 11, 12, 13, 8, 9, 10, 15, 14, 17, 16, 19, 18, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+        transpositions: [{2, 5}, {3, 6}, {4, 7}, {8, 11}, {9, 12}, {10, 13}, {14, 15}, {16, 17}, {18, 19}, {20, 41}, {21, 42}, {22, 43}, {23, 44}, {24, 45}, {25, 46}, {26, 47}, {27, 48}, {28, 49}, {29, 50}, {30, 51}, {31, 52}, {32, 53}, {33, 54}, {34, 55}, {35, 56}, {36, 57}, {37, 58}, {38, 59}, {39, 60}, {40, 61}]
+
+handedBodyJointDef:
+        Joint definition for j20
+        Defined joints:
+                0       NOSE
+                1       NECK
+                2       RSHOULDER
+                3       RELBOW
+                4       RWRIST
+                5       LSHOULDER
+                6       LELBOW
+                7       LWRIST
+                8       RHIP
+                9       RKNEE
+                10      RANKLE
+                11      LHIP
+                12      LKNEE
+                13      LANKLE
+                14      REYE
+                15      LEYE
+                16      REAR
+                17      LEAR
+                18      LTOE
+                19      RTOE
+
+        Defined bones:
+                0       NECK - RHIP
+                1       RHIP - RKNEE
+                2       RKNEE - RANKLE
+                3       NECK - LHIP
+                4       LHIP - LKNEE
+                5       LKNEE - LANKLE
+                6       NECK - RSHOULDER
+                7       RSHOULDER - RELBOW
+                8       RELBOW - RWRIST
+                9       RSHOULDER - REAR
+                10      NECK - LSHOULDER
+                11      LSHOULDER - LELBOW
+                12      LELBOW - LWRIST
+                13      LSHOULDER - LEAR
+                14      NECK - NOSE
+                15      NOSE - REYE
+                16      NOSE - LEYE
+                17      REYE - REAR
+                18      LEYE - LEAR
+                19      LANKLE - LTOE
+                20      RANKLE - RTOE
+
+        reflecting:
+                flipIndices: [0, 1, 5, 6, 7, 2, 3, 4, 11, 12, 13, 8, 9, 10, 15, 14, 17, 16, 19, 18]
+                transpositions: [{2, 5}, {3, 6}, {4, 7}, {8, 11}, {9, 12}, {10, 13}, {14, 15}, {16, 17}, {18, 19}]
+
+        Joint definition for hand21
+        Defined joints:
+                0       Wrist
+                1       TMCP
+                2       IMCP
+                3       MMCP
+                4       RMCP
+                5       PMCP
+                6       TPIP
+                7       TDIP
+                8       TTIP
+                9       IPIP
+                10      IDIP
+                11      ITIP
+                12      MPIP
+                13      MDIP
+                14      MTIP
+                15      RPIP
+                16      RDIP
+                17      RTIP
+                18      PPIP
+                19      PDIP
+                20      PTIP
+
+        Defined bones:
+                0       Wrist - TMCP
+                1       TMCP - TPIP
+                2       TPIP - TDIP
+                3       TDIP - TTIP
+                4       Wrist - IMCP
+                5       IMCP - IPIP
+                6       IPIP - IDIP
+                7       IDIP - ITIP
+                8       Wrist - MMCP
+                9       MMCP - MPIP
+                10      MPIP - MDIP
+                11      MDIP - MTIP
+                12      Wrist - RMCP
+                13      RMCP - RPIP
+                14      RPIP - RDIP
+                15      RDIP - RTIP
+                16      Wrist - PMCP
+                17      PMCP - PPIP
+                18      PPIP - PDIP
+                19      PDIP - PTIP
+
+        leftifyNamePrefix: L
+        rightifyNamePrefix: R
+
